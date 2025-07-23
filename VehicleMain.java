@@ -33,13 +33,13 @@ class Bike extends Vehicle{
   }
 }
 
-public class Person {
+public class VehicleMain{
   public static void main(String[] args){
-    Car car=new Car("Audi",150,4);
+    Car car=new Car("Tata",150,4);
     System.out.println("Car Details:");
     car.displayCar();
     System.out.println();
-    Bike bike=new Bike("Honda",90,true);
+    Bike bike=new Bike("hero",90,true);
     System.out.println("Bike Details:");
     bike.displayBike();
   }

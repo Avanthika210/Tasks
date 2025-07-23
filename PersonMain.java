@@ -44,7 +44,7 @@ class Teacher extends Person {
 }
 
 
-public class Vehicle{
+public class PersonMain {
     public static void main(String[] args) {
         Student student = new Student("Kavitha", 20, "Computer Science");
         System.out.println("Student Details:");
